@@ -1,51 +1,51 @@
 {
-"data": {
+  "data": {
     "projects": [
-        {
-            "id": "0",
-            "project_name": "Random Quote Generator",
-            "descritpion": "Generates random quotes",
-            "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": " ",
-            "github_link": "https://github.com/kzunino/Teachdegree-project-1",
-            "image_urls": []
-        },
-        {
-            "id": "1",
-            "project_name": "Student List & Pagination",
-            "descritpion": "Pagination and list sorting",
-            "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": " ",
-            "github_link": "https://github.com/kzunino/Team-Treehouse-Project-2",
-            "image_urls": []
-        },
-        {
-            "id": "2",
-            "project_name": "Interactive Form",
-            "descritpion": "Interactive form validation",
-            "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
-            "live_link": " ",
-            "github_link": "https://github.com/kzunino/Tea-Treehouse-Project-3",
-            "image_urls": []
-        },
-        {
-            "id": "3",
-            "project_name": "Phrase Hunter",
-            "descritpion": "Phrase hunter game",
-            "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
-            "live_link": " ",
-            "github_link": "https://github.com/kzunino/Team-Treehouse-Project-4",
-            "image_urls": []
-        },
-        {
-            "id": "4",
-            "project_name": "Public API Requests",
-            "descritpion": "Generates employee list with modals and list sorting",
-            "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
-            "live_link": " ",
-            "github_link": "https://github.com/kzunino/team_treehouse_project_5",
-            "image_urls": []
-        }
-        ]
-}
+      {
+        "id": "0",
+        "project_name": "Random Quote Generator",
+        "descritpion": "Generates random quotes",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": " ",
+        "github_link": "https://github.com/kzunino/Teachdegree-project-1",
+        "image_urls": ["/static/images/RandomQuoteGenerator.jpeg", "/static/images/RandomQuoteGen2.jpeg" ]
+      },
+      {
+        "id": "1",
+        "project_name": "Student List & Pagination",
+        "descritpion": "Pagination and list sorting",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": " ",
+        "github_link": "https://github.com/kzunino/Team-Treehouse-Project-2",
+        "image_urls": ["/static/images/studentDirectory.jpeg", "/static/images/studentDir2.jpeg"]
+      },
+      {
+        "id": "2",
+        "project_name": "Interactive Form",
+        "descritpion": "Interactive form validation",
+        "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
+        "live_link": " ",
+        "github_link": "https://github.com/kzunino/Tea-Treehouse-Project-3",
+        "image_urls": ["/static/images/interactiveForm.jpeg", "/static/images/interactiveForm2.jpeg"]
+      },
+      {
+        "id": "3",
+        "project_name": "Phrase Hunter",
+        "descritpion": "Phrase hunter game",
+        "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
+        "live_link": " ",
+        "github_link": "https://github.com/kzunino/Team-Treehouse-Project-4",
+        "image_urls": ["/static/images/PhraseHunter.jpeg", "/static/images/phraseHunter2.jpeg"]
+      },
+      {
+        "id": "4",
+        "project_name": "Public API Requests",
+        "descritpion": "Generates employee list with modals and list sorting",
+        "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
+        "live_link": " ",
+        "github_link": "https://github.com/kzunino/team_treehouse_project_5",
+        "image_urls": ["/static/images/FetchAPI.jpeg", "/static/images/fetchAPI2.jpeg"]
+      }
+    ]
+  }
 }

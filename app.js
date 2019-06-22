@@ -1,12 +1,15 @@
 const express = require('express');
 const app = express();
 
-app.set('view engine', 'pug');              //sets view (templates) engine to pug
-app.use('/static', express.static('public'));
+app.set('view engine', 'pug');                     //sets view (templates) engine to pug
+app.use('/static', express.static('public'));     //serves the static folders in public folder
 
 const mainRoute = require('./routes');
-
-app.use(mainRoute);     // links mainRoute file to render main page
+const aboutRoute = require('./routes/about');
+// const projectRoute = require('./routes/projects');
+app.use(mainRoute);                                  // links mainRoute file to render main page
+app.use('/about', aboutRoute);                       //path parameter makes it so you don't need to put path param inside router.get in respective file
+// app.use('/projects', projectRoute);
 
 
 app.use(( err, req, res, next ) => {
