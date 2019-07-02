@@ -4,7 +4,7 @@
       {
         "id": "0",
         "project_name": "Random Quote Generator",
-        "descritpion": "Generates random quotes",
+        "descritpion": "An application that generates random quotes and changes color.",
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "https://kzunino.github.io/Teachdegree-project-1/",
         "github_link": "https://github.com/kzunino/Teachdegree-project-1",
@@ -13,7 +13,7 @@
       {
         "id": "1",
         "project_name": "Student List & Pagination",
-        "descritpion": "Pagination and list sorting",
+        "descritpion": "A practice application that sorts and organizes a list of students with search functionality.",
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "https://kzunino.github.io/Team-Treehouse-Project-2/",
         "github_link": "https://github.com/kzunino/Team-Treehouse-Project-2",
@@ -22,7 +22,7 @@
       {
         "id": "2",
         "project_name": "Interactive Form",
-        "descritpion": "Interactive form validation",
+        "descritpion": "An interactive form with field validation.",
         "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
         "live_link": "https://kzunino.github.io/Tea-Treehouse-Project-3/",
         "github_link": "https://github.com/kzunino/Tea-Treehouse-Project-3",
@@ -31,7 +31,7 @@
       {
         "id": "3",
         "project_name": "Phrase Hunter",
-        "descritpion": "Phrase hunter game",
+        "descritpion": "A game where you guess the hidden phrase.",
         "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
         "live_link": "https://kzunino.github.io/Team-Treehouse-Project-4/",
         "github_link": "https://github.com/kzunino/Team-Treehouse-Project-4",
@@ -40,7 +40,7 @@
       {
         "id": "4",
         "project_name": "Public API Requests",
-        "descritpion": "Generates employee list with modals and list sorting",
+        "descritpion": "Generates an employee list with modals and list sorting",
         "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
         "live_link": "https://kzunino.github.io/team_treehouse_project_5/",
         "github_link": "https://github.com/kzunino/team_treehouse_project_5",
