@@ -15,16 +15,17 @@ app.use('/projects', projectRoute);
 
 
 app.use((req, res, next ) => {
-  const err = new Error('Page not found!');
+  const err = new Error('Oh no! Page not found.');
   err.status = 404;
   next(err);
 });
 
 app.use(( err, req, res, next ) => {
+  console.error(err.message)
   res.locals.error = err;
-  res.status(err.status);
   res.render('error');
 });
+
 
 app.listen(3000, () => {
   console.log('The application is running on localhost:3000!');
