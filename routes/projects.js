@@ -15,7 +15,7 @@ router.get('/:id', (req, res, next) => {         //renders the main page
     let projectData = {title, description, images, technologies, liveLink, gitHubLink};
     res.render('project', {projectData});
   }else{
-    const err = new Error('Project does not exist');
+    const err = new Error('Project does not exist');  //creates new error object 
     err.status = 404;
     next(err);
 }

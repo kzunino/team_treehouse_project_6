@@ -14,7 +14,7 @@ app.use('/about', aboutRoute);                       //path parameter makes it s
 app.use('/projects', projectRoute);
 
 
-app.use((req, res, next ) => {
+app.use((req, res, next ) => {                      //creates error object for non-existent url path
   const err = new Error('Oh no! Page not found.');
   err.status = 404;
   next(err);
